@@ -1,0 +1,7 @@
+project lama gagal build karena error libcocos2d.dll, sehingga
+bikin project baru sampai bisa di-run 
+kemudian copy semua source code .h .cpp ke npp dari project lama
+kemudian paste pada .h .cpp di project baru
+kemudian copy paste object2 yang dibutuhkan ke direktori project baru
+kemudian build project baru lalu run
+maka hasil run akan sama dengan project sebelumnya
