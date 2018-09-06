@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+	<title>Lanterlite</title>
+	
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/navbar.css') }}">
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/slideshow.css') }}">
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/style.css') }}">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='images/brown-favicon.ico') }}">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- <body style="opacity: 7.5; filter: alpha(opacity=50);" background="{{ url_for('static', filename='images/bgimage.jpg') }}"> -->
+	<body 
+	background="{{ url_for('static', filename='images/bgimage.jpg') }}">
+	<div id="label">
+			<img src="{{ url_for('static', filename='images/brown-plain.svg') }}" onerror="src='{{ url_for('static', filename='images/blog-header.png') }}'" style="height:70px; width:200px;"/>
+	</div>
+	<div id="nav-bar">
+		<ul>
+			<li><a href="javascript:void(0)" class="dropbtn"><font face="lanterlite_cambria" size=4px>ISLAM</font></a></li>
+			<li><a href="javascript:void(0)" class="dropbtn"><font face="lanterlite_cambria" size=4px>TECHNOLOGY</font></a></li>
+			<li><a href="javascript:void(0)" class="dropbtn"><font face="lanterlite_cambria" size=4px>PRODUCT</font></a></li>
+		</ul>
+	</div>
+	
+	<style>
+	table, th, td {
+		/* border: 1px solid black; */
+		/* border: 1px solid transparent; */
+		border: 1px solid transparent;
+	}
+
+	</style>
+	<style>
+		#daftar a:link {text-decoration: none; color: rgb(205,133,63);}
+		#daftar a:visited {text-decoration: none; color: rgb(205,133,63);}
+		#daftar a:hover {text-decoration: none; color: rgb(244,164,96);}
+		#daftar a:active {text-decoration: none; color: blue;}
+	</style>
+
+	<style>
+	img.sshot {
+		width:500px;
+		height:250px;
+	}
+	h1 { color:black; }
+	h2 { color:blue; }
+	h3.tips { color:green; }
+	h4.tips { color:green; }
+	h3.fix_problem { color:red; }
+	h4.fix_problem { color:red; }
+
+	</style>
+
+	
+
+	<div id="home-post">
+		<h1>LANTELITE TUTORIAL</h1>
+		<h2>Cocos2dx + Visual Studio 2017</h2>
+		<h3 class="tips">Tips</h3>
+		<h3 class="fix_problem">Fix Problem</h3>
+		<h4 class="fix_problem">Missing MSVCR110.dll</h4>
+		<p>1. Download and Install this app</p>
+		<img class="sshot" src="{{ url_for('static', filename='image/cocos2dx/problem/missing_msvcr110.dll/01_download_and_install_app.png') }}">
+		<p>2. Run the project again</p>
+		<img class="sshot" src="{{ url_for('static', filename='image/cocos2dx/problem/missing_msvcr110.dll/02_run_project.png') }}">
+
+		<h2>InkScape</h2>
+		<h3 class="tips">Tips</h3>
+		<h3 class="fix_problem">Fix Problem</h3>
+	</div>
+
+	<div id="home-post-bottom">
+		<!-- <table cellpadding="17px"> -->
+		<table cellpadding="0px">
+		<thead>
+		
+		<tr>
+			<!-- <th rowspan="5"><font color="black" style="font-family:calibri; font-size:20px;">Topik Lainnya<font></th> -->
+			<td align="center" colspan="5" width=40px height=10px><font color=#A0522D size=5px style="font-family:'lanterlite_impact';"><b>
+			------------------------------------------------------------ Coming Soon -------------------------------------------------------------
+			</b></font></td>
+			<!--
+			<td width=40px ></td>
+			<td width=40px ></td>
+			<td width=40px ></td>
+			<td width=40px ></td>
+			-->
+		</tr>			
+		</thead>
+		<tbody>
+		<tr>
+			<td style="padding: 16px 16px 0px 16px;"><img src="{{ url_for('static', filename='images/charisma_app.png') }}" style="height:100px; width:178px;"/></td>
+			<td style="padding: 16px 16px 0px 16px;"><img src="{{ url_for('static', filename='images/smart_partner.png') }}" style="height:100px; width:178px;"/></td>
+			<td style="padding: 16px 16px 0px 16px;"><img src="{{ url_for('static', filename='images/quarpp_app.png') }}" style="height:100px; width:178px;"/></td>
+			<td style="padding: 16px 16px 0px 16px;"><img src="{{ url_for('static', filename='images/machinary_online.png') }}" style="height:100px; width:178px;"/></td>
+			<td style="padding: 16px 16px 0px 16px;"><img src="{{ url_for('static', filename='images/giora_app.png') }}" style="height:100px; width:178px;"/></td>
+		</tr>
+		<tr>
+			<td align="center"><font color=#A0522D size=4px style="font-family:'lanterlite_cambria';"><b>Lanterlite Charisma</b></font></td>
+			<td align="center"><font color=#A0522D size=4px style="font-family:'lanterlite_cambria';"><b>Lanterlite SmartPartner</b></font></td>
+			<td align="center"><font color=#A0522D size=4px style="font-family:'lanterlite_cambria';"><b>Lanterlite Quarpp</b></font></td>
+			<td align="center"><font color=#A0522D size=4px style="font-family:'lanterlite_cambria';"><b>Lanterlite Machinary</b></font></td>
+			<td align="center"><font color=#A0522D size=4px style="font-family:'lanterlite_cambria';"><b>Lanterlite Giora</b></font></td>
+		</tr>
+		</tbody>
+		</table>
+	</div>
+
+		<div id="home-post-footer">
+			<table cellpadding="0px">
+			<thead>
+			<tr>
+				<td rowspan="5"><font color="#FFFCC9" style="font-family:'lanterlite_impact'; font-size:20px;">Tentang Lanterlite<font></td>
+			</tr>			
+			</thead>
+			<tbody>
+			<tr>
+				<td><font color=#FFFCC9 style="font-family:'lanterlite_constantia';">Saran dan masukkan, bisa pembaca sampaikan melalui email kami di <i>lanterlite@gmail.com</i>.</font></td>
+			</tr>
+			</tbody>
+			</table>
+		</div>
+
+		<div id="home-post-footest">
+			<font color="#C2A060">- Designed by Lanterlite -</font>
+		</div>
+		<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+			   slides[i].style.display = "none";  
+			}
+			slideIndex++;
+			if (slideIndex> slides.length) {slideIndex = 1}    
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " active";
+			setTimeout(showSlides, 3000); 
+		}
+	</script>
+
+	</body>
+</html> 

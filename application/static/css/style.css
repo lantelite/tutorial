@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'lanterlite_impact'; /*a name to be used later*/
+    src: url('fonts/impact.ttf') /*URL to font*/
+}
+
+@font-face {
+    font-family: 'lanterlite_cambria'; /*a name to be used later*/
+    src: url('fonts/cambria.ttc') /*URL to font*/
+}
+
+@font-face {
+    font-family: 'lanterlite_constantia'; /*a name to be used later*/
+    src: url('fonts/constan.ttf') /*URL to font*/
+}
+
+#post
+{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	padding-left: 70px;
+	padding-right: 70px;
+	width: 1000px;
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	margin: auto;
+	text-align: justify;
+}
+
+/*body {margin:0;}*/
+
+#home-post
+{
+
+	opacity: 0.8;
+	padding-top: 20px;
+	/* padding-bottom: 20px; */
+	padding-bottom: 50px;
+	padding-left: 110px;
+	/* padding-right: 110px; */
+	padding-right: 30px;
+	width: 1000px;
+	border-color: #FFFFFF;
+	background-color: white;
+	/* border-radius: 5px; */
+	border-radius: 0px;
+	margin: auto;
+	text-align: justify;
+}
+#home-post-mid
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 110px;
+	width: 1000px;
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	text-align: justify;
+}
+
+#home-post-bottom
+{
+	opacity: 0.8;
+	/* padding-top: 20px; */
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 110px;
+	width: 1000px;
+	border-color: #FFFFFF;
+	/* background-color: #FFFFFF; */
+	background-color: #F8DC6D;
+	/* border-radius: 5px; */
+	border-radius: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	text-align: justify;
+}
+
+#home-post-footer
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 110px;
+	width: 1000px;
+	border-color: #FFFFFF;
+	background-color: rgb(203, 175, 124);
+	/* background-color: rgb(203, 175, 124); */
+	/* border-radius: 5px; */
+	border-radius: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	text-align: justify;
+}
+
+#home-post-footest
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 38px;
+	padding-right: 110px;
+	width: 1000px;
+	border-color: #FFFFFF;
+	background-color: rgb(255,252,201);
+	/* background-color: rgb(203, 175, 124); */
+	/* border-radius: 5px; */
+	border-radius: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	text-align: center;
+}
